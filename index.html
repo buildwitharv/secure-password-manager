@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Password Manager</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Password Manager</h2>
+
+<input type="text" id="name" placeholder="Enter App / Website Name">
+
+<input type="number" id="length" placeholder="Password Length">
+
+<button onclick="generatePassword()">Generate Password</button>
+
+<h3 id="result"></h3>
+
+<p id="strength"></p>
+
+<button onclick="savePassword()">Save Password</button>
+
+<h3>Find Password</h3>
+
+<input type="text" id="searchName" placeholder="Enter Name to Search">
+
+<button onclick="findPassword()">Find</button>
+
+<p id="foundPassword"></p>
+
+<ul id="savedList"></ul>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
