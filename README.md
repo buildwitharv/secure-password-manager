@@ -1,16 +1,16 @@
-# 🔐 Smart Password Manager
+# 🔐 Secure Password Manager
 
-A web-based Password Manager built using HTML, CSS, and JavaScript that helps users generate strong passwords, check password strength, save credentials, and retrieve them when needed.
+A secure web application built with HTML, CSS, and JavaScript that helps users generate strong passwords, evaluate password strength, and securely store credentials using browser Local Storage.
 
 ## 🚀 Features
 
 * Generate secure random passwords
-* Custom password length selection
-* Password strength checker
-* Save passwords with website/app names
+* Customize password length
+* Password strength analysis
+* Save passwords with website/application names
 * Search and retrieve saved passwords
-* Local Storage support
-* Simple and user-friendly interface
+* Local Storage integration
+* Simple and responsive user interface
 
 ## 🛠️ Technologies Used
 
@@ -21,46 +21,48 @@ A web-based Password Manager built using HTML, CSS, and JavaScript that helps us
 
 ## 📂 Project Structure
 
-```text
-Password-Manager/
-│
+Secure-Password-Manager/
+
 ├── index.html
+
 ├── style.css
+
 ├── script.js
+
 └── README.md
-```
 
 ## 💡 How It Works
 
-1. Enter the website or application name.
-2. Enter the desired password length.
-3. Click **Generate Password**.
-4. Check the password strength indicator.
-5. Save the password using **Save Password**.
-6. Search for saved passwords using the **Find Password** feature.
+1. Enter a website or application name.
+2. Choose the desired password length.
+3. Generate a secure password.
+4. Review the password strength indicator.
+5. Save the password for future use.
+6. Search and retrieve saved credentials anytime.
 
-## 🎯 Learning Outcomes
+## 🎯 Key Learning Outcomes
 
-* DOM Manipulation
+* JavaScript DOM Manipulation
 * Event Handling
-* JavaScript Functions
 * Conditional Logic
-* Browser Local Storage
-* UI Design with CSS
+* Browser Storage APIs
+* Responsive UI Design
 
-## 🔮 Future Enhancements
+## 🔮 Future Improvements
 
-* Copy Password Button
-* Show/Hide Password Feature
-* Password Encryption
-* Dark Mode
-* Export Passwords to CSV
-* Responsive Mobile Design
+* Password encryption
+* Copy-to-clipboard functionality
+* Show/Hide password option
+* Dark mode support
+* Export credentials feature
+* Mobile-first responsive design
+
+## 📈 Project Impact
+
+This project demonstrates practical implementation of password generation, strength validation, data persistence, and user interaction using core web development technologies.
 
 ## 👩‍💻 Author
 
 **Aradhana R V**
 
-Computer Science Student passionate about AI, Python, Automation, and Web Development.
-
-⭐ If you like this project, consider giving it a star!
+Third-Year Computer Science Student passionate about Artificial Intelligence, Python Development, Automation, and Software Engineering.
